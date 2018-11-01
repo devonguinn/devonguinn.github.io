@@ -2,7 +2,7 @@ body {
 	background-image: url("background.jpg");
 }
 h1 {
-	font-size: large;
+	font-size: 72px;
 	text-align: center;
 	color: white;
 }
