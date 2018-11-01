@@ -7,17 +7,20 @@ h1 {
 	font-family: 'Gruppo';
 	text-align: center;
 	color: white;
+	line-height: 10px;
 }
 h2 {
 	font-size: 18px;
 	font-family: 'Gruppo';
 	text-align: left;
 	color: #edefef;
+	line-height: 5px;
 }
 h6 {
 	font-size: 10px;
 	font-family: 'Gruppo';
 	text-align: center;
 	color: white;
+	line-height:15px;
 }
 	
