@@ -8,6 +8,12 @@ h1 {
 	text-align: center;
 	color: white;
 }
+h2 {
+	font-size: 72px;
+	font-family: 'Gruppo';
+	text-align: left;
+	color: 'edefef';
+}
 #image {
 text-align:center;
 }
