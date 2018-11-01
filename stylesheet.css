@@ -2,6 +2,7 @@ body {
 	background-image: url("background.jpg");
 }
 h1 {
+	font-size: large;
 	text-align: center;
 	color: white;
 }
