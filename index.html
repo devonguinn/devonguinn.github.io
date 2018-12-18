@@ -41,5 +41,26 @@ Developer    {
 	alt="https://linkedin.com/in/devonguinn"
         style="width:48px;height:48px;border:0;">
 </a>
+<form id="form1">
+  <input type="text" name="fname" value="Zip Code"><br>
+</form>
+
+<p>Click "Try it" to display the value of each element in the form.</p>
+
+<button onclick="myFunction()">Get the Weather!</button>
+
+<p id="weather"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("form1");
+  var text = "";
+  var i;
+  for (i = 0; i < x.length ;i++) {
+    text += x.elements[i].value + "<br>";
+  }
+  document.getElementById("weather").innerHTML = text;
+}
+</script>
 </body>
 </html>
