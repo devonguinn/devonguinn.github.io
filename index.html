@@ -3,9 +3,8 @@
 <link href="https://fonts.googleapis.com/css?family=Gruppo"
 rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
-
 <h1>Devon Guinn</h1>
-<h6>devonguinn1@gmail.com</h6>
+<h4>devonguinn1@gmail.com &emsp; &emsp;B.A. Computer Science 2018 &emsp; &emsp; Infrastructure Operations</h4>
 
 <body>
 Developer    {
@@ -51,16 +50,6 @@ Developer    {
 
 <p id="weather"></p>
 
-<script>
-
-function loadJSON() {
-	fetch("https://ghibliapi.herokuapp.com/films")
-		.then(response => response.json())
-		.then(data => {
-			console.log(data)
-		})
-}
-
-</script>
+<script src="scripts/weather.js"></script>
 </body>
 </html>
