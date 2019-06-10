@@ -7,6 +7,7 @@ function append(parent, el) {
 }
 
 const ul = document.getElementById('weather');
+//This API url is just a free api test service...returns photos of people & their names. 
 const url = 'https://randomuser.me/api/?results=10';
 function loadJSON(){
   fetch(url)
